@@ -1,0 +1,29 @@
+footer {
+    height: auto;
+    width: 100%;
+    padding: 5rem;
+    font-family: "Square Peg";
+    text-align: center;
+    color: #fff;
+    background-color: #355674;
+
+    h1 {
+        font-size: 3rem;
+        font-weight: 100;
+        letter-spacing: 1px;
+    }
+    
+    .info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 3rem;
+
+        p {
+            font-family: "Quicksand";
+            font-weight: 100;
+            letter-spacing: 1px;
+        }
+    }
+}

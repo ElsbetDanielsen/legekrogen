@@ -1,0 +1,34 @@
+.productContainer {
+  background-color: #c1adce;
+  padding-bottom: 25px;
+
+  .heading {
+    padding-top: 5rem;
+
+    h2 {
+      color: #fff;
+      font-family: "Square Peg";
+      font-size: 4rem;
+      text-align: center;
+      font-weight: 100;
+      letter-spacing: 1px;
+    }
+
+    h1 {
+      color: #fff;
+      font-family: "Quicksand";
+      font-size: 4rem;
+      text-align: center;
+      font-weight: 100;
+    }
+  }
+}
+
+
+@media (min-width: 768px) {
+  .toysContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 5rem;
+  }
+}

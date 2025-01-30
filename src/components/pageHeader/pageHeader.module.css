@@ -1,0 +1,41 @@
+.header {
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    padding-top: 10rem;
+
+    .headerContent {
+        background-color: #C1ADCE95;
+        width: 100%;
+        padding: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        h3 {
+            font-family: "Square Peg", sans-serif;
+            font-size: 3.5rem;
+            font-weight: 100;
+            color: #fff;
+        }
+
+        h1 {
+            font-family: "Quicksand", sans-serif;
+            font-size: 4rem;
+            font-weight: 100;
+            text-transform: uppercase;
+            color: #fff;
+        }
+        
+        p {
+            font-family: "Quicksand", sans-serif;
+            font-size: 1.4rem;
+            text-align: center;
+            font-weight: 100;
+            max-width: 26rem;
+            color: #fff;
+            margin-top: 2rem;
+        }
+    }
+}

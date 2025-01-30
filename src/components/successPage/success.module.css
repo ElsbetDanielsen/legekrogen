@@ -1,0 +1,64 @@
+.successPage {
+  position: relative;
+  background-image: url("/assets/hero/medlem.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  flex-direction: column; 
+
+  .text {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    flex-direction: column; 
+    text-align: center; 
+    color: #fff;
+    z-index: 2;
+
+    h1 {
+      font-family: "Square Peg", sans-serif;
+      font-size: 5rem;
+      font-weight: 100;
+    }
+
+    p {
+      font-family: "Quicksand", sans-serif;
+      font-size: 1.3rem;
+      font-weight: 100;
+      max-width: 19rem;
+    }
+
+    .textOne, .textTwo {
+      margin: 1rem;
+    }
+  }
+
+  button {
+    background-color: #355674;
+    padding: 1rem;
+    width: 20rem;
+    margin-top: 3rem; 
+    border: none;
+    border-radius: 50rem;
+    color: #fff;
+    font-family: "Quicksand", sans-serif;
+    font-size: 1rem;
+    cursor: pointer; 
+    z-index: 2; 
+  }
+}
+
+.successPage::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #9478A7E5;
+  z-index: 1; 
+}

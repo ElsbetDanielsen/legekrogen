@@ -1,0 +1,54 @@
+.contactForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  form {
+    margin: 5rem;
+  
+    input {
+      font-size: 1.5rem;
+      font-family: "Square Peg";
+      letter-spacing: 1px;
+      background-color: transparent;
+      border: 1px solid #BCBCBC;
+      border-radius: 3rem;
+      width: 40rem;
+      margin: 0.8rem;
+      padding: 0.5rem;
+      padding-left: 2rem;
+    }
+
+    .message {
+      padding-bottom: 8rem;
+      border-radius: 2rem;
+    }
+
+    input::placeholder {
+      color: #BCBCBC;
+    }
+
+    input:focus {
+      outline: none;
+    }
+
+    button {
+      font-size: 0.8rem;
+      font-family: "Quicksand";
+      color: #fff;
+      background-color: #9478A7;
+      border: none;
+      border-radius: 3rem;
+      padding: 1rem;
+      margin-top: 1rem;
+      margin-bottom: 5rem;
+      width: 100%;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #856b96;
+    }
+  }
+}

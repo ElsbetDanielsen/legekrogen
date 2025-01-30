@@ -1,0 +1,35 @@
+.spørg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5rem;
+
+    .faq {
+        font-family: "Quicksand", sans-serif;
+        width: 30rem;
+        border: 1px solid #BCBCBC;
+        border-radius: 1rem;
+        padding: 1rem;
+        margin: 1rem;
+        color: #355674;
+        line-height: 1.5;
+
+        .questionContainer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: row;
+            padding: 1rem;
+
+            .faqQuestion {
+                max-width: 13rem;
+            }
+        }
+
+        .faqAnswer {
+            border-top: 1px solid #bcbcbc57;
+            padding: 1rem;
+        }
+    }
+}
