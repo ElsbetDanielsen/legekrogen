@@ -1,7 +1,7 @@
 .heroContainer {
     position: relative;
     height: 100vh; 
-    background-image: url('assets/hero/forsiden.jpg'); 
+    background-image: url('/assets/hero/forsiden.jpg'); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
